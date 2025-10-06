@@ -121,6 +121,7 @@ const EditTask = () => {
             <div className="md-3">
                 <label className="form-label">Task Status</label>
                 <select className="form-control" name="completed" value={completed} onChange={(e)=>setCompleted(e.target.value)}>
+                    <option></option>
                     <option value="Not Completed">Not Completed</option>
                     <option value="Completed">Completed</option>
                 </select>
