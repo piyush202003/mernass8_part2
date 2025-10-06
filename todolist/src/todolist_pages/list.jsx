@@ -127,7 +127,7 @@ export default function List() {
                 <div className="d-flex justify-content-between align-items-center">
                     <strong>{t.task || 'Untitled'}</strong>
                     <small className="text-muted">
-                    {t.completed ? 'Completed' : 'Not Completed'}
+                    {t.completed}
                     </small>
                 </div>
                 <div>{t.description || 'No Description'}</div>
