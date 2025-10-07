@@ -41,7 +41,7 @@ const EditTask = () => {
             }
         }
         load();
-    })
+    },[id]);
 
 
     const handleUpdate = async (e) => {
